@@ -10,3 +10,19 @@ Donde las personas o el ciudadano pueda desplazarce tranquilamente.
 Datos
 
 Podemos identificar los elementos que afectaran en la decisión de descubrir los lugares mas seguros para transitar:
+•	Elegir el vecindario correcto dentro del municipio
+•	Encontrar el distrito más seguro 
+•	Encontrar los lugares más comunes
+•	Revisaremos las coordenadas geográficas de Vancouver para hallar los vecindarios en un distrito que sean seguro para presentar lo buscado.
+
+Se necesitarán las siguientes fuentes de datos para extraer / generar la información requerida:
+Necesitaremos las siguientes fuentes de datos:
+
+Primera Etapa: Uso de datos de Kaggle que contiene los delitos de Vancouver del año 2016 donde se encuentran los registros de delitos en cada vecindario de Vancouver junto con sus características.
+
+Segunda Etapa: Se obtendrá información de Wikipedia para cruzarla con la base de la primera etapa y así poder identificar correctamente cada vecindario a que municipio pertenece. 
+
+Tercera Etapa: Utilizando OpenCage Geocoder se realizará un nuevo dataframe de los vecindarios, así como los datos de los delitos y sus coordenadas, para encontrar los lugares mas seguros para los ciudadanos. Se cruzará en mapas usando Folium y podrá determinarse un análisis mas profundo en base a lo encontrado.
+
+Ultima Etapa: Utilizando Four Square API se realizara un nuevo conjunto de vecindarios, distritos  para agruparlos y mostrar los nuevos descubrimientos usando en mapas de Folium.
+
