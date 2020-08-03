@@ -1,28 +1,27 @@
-Introducción: 
-Seguridad Ciudadana
-Lo que se busca en este proyecto es encontrar un lugares seguro para la cuidadania en Vancouver, Canadá. Asi este informe permitira conocer donde se realizan mayor cantidad de delitos y los suburbios mas seguros para transitar en la ciudad de Vancouver, Canadá.
+Introduction:
+Citizen security
+What is sought in this project is to find a safe places for citizenship in Vancouver, Canada. Thus, this report will allow knowing where most crimes are carried out and the safest suburbs to transit in the city of Vancouver, Canada.
 
-Para empezar lo ideal es descubrir el distrito mas seguro revisando los datos de crimenes y realizar una lista de los vecindarios menos delictivos en donde las personas puedan transitar con mayor tranquilidad y seguridad.
+To start, the ideal is to discover the safest district by reviewing crime data and making a list of the least criminal neighborhoods where people can travel more safely and safely.
 
-Con las herramientas usadas durante los cursos de ciencia de datos analizaremos y nos enfocaremos en el distrito mas seguro y conocer sus vecindarios y los mas comunes
-Donde las personas o el ciudadano pueda desplazarce tranquilamente.
+With the tools used during the data science courses we will analyze and focus on the safest district and get to know its neighborhoods and the most common ones
+Where the people or the citizen can move quietly.
 
-Datos
+Data
 
-Podemos identificar los elementos que afectaran en la decisión de descubrir los lugares mas seguros para transitar:
-•	Elegir el vecindario correcto dentro del municipio
-•	Encontrar el distrito más seguro 
-•	Encontrar los lugares más comunes
-•	Revisaremos las coordenadas geográficas de Vancouver para hallar los vecindarios en un distrito que sean seguro para presentar lo buscado.
+We can identify the elements that will affect the decision to discover the safest places to travel:
+• Choose the correct neighborhood within the municipality
+• Find the safest district
+• Find the most common places
+• We will review the geographic coordinates of Vancouver to find neighborhoods in a district that are safe to present.
 
-Se necesitarán las siguientes fuentes de datos para extraer / generar la información requerida:
-Necesitaremos las siguientes fuentes de datos:
+The following data sources will be needed to extract / generate the required information:
+We will need the following data sources:
 
-Primera Etapa: Uso de datos de Kaggle que contiene los delitos de Vancouver del año 2016 donde se encuentran los registros de delitos en cada vecindario de Vancouver junto con sus características.
+Stage One: Use of Kaggle data containing 2016 Vancouver crimes where crime records are found in each Vancouver neighborhood along with their characteristics.
 
-Segunda Etapa: Se obtendrá información de Wikipedia para cruzarla con la base de la primera etapa y así poder identificar correctamente cada vecindario a que municipio pertenece. 
+Second Stage: Information will be obtained from Wikipedia to cross it with the base of the first stage and thus be able to correctly identify each neighborhood to which municipality it belongs.
 
-Tercera Etapa: Utilizando OpenCage Geocoder se realizará un nuevo dataframe de los vecindarios, así como los datos de los delitos y sus coordenadas, para encontrar los lugares mas seguros para los ciudadanos. Se cruzará en mapas usando Folium y podrá determinarse un análisis mas profundo en base a lo encontrado.
+Third Stage: Using OpenCage Geocoder a new dataframe of the neighborhoods will be made, as well as the crime data and their coordinates, to find the safest places for citizens. It will be crossed in maps using Folium and a deeper analysis can be determined based on what was found.
 
-Ultima Etapa: Utilizando Four Square API se realizara un nuevo conjunto de vecindarios, distritos  para agruparlos y mostrar los nuevos descubrimientos usando en mapas de Folium.
-
+Last Stage: Using the Four Square API a new set of neighborhoods, districts will be made to group them and show the new discoveries using Folium maps.
