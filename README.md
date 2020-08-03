@@ -1,2 +1,2 @@
-# Seguridad-Ciudadana-en-Vancouver
-Lugares seguros en vancouver donde el ciudadano pueda transitar con tranquilidad 
+# Citizen-Security-in-Vancouver
+Safe places in Vancouver where the citizen can travel with ease. 
